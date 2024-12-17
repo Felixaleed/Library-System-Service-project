@@ -1,0 +1,124 @@
+/* Navigation Tabs Styling */
+.navigation-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #354649; /* Dark teal background */
+    color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navigation-tabs a {
+    text-decoration: none;
+    color: #A3C6C4; /* Light teal color for links */
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Ensuring text color stays white during hover for all links */
+  .navigation-tabs a:hover {
+    background-color: #A3C6C4; /* Light teal background */
+    color: white !important; /* Force the text to stay white on hover */
+  }
+  
+  /* Categories Button and Dropdown */
+  .categories {
+    position: relative;
+  }
+  
+  .categories-button {
+    background-color: #6C7A89;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Ensuring categories button text stays white during hover */
+  .categories-button:hover {
+    background-color: #A3C6C4;
+    color: white !important; /* Force the text to stay white on hover */
+  }
+  
+  /* Categories Dropdown */
+  .categories-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #E0E7E9; /* Light background color for the category list */
+    color: #354649; /* Dark text color for better contrast */
+    padding: 0.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 200px;
+  }
+  
+  .categories-dropdown a {
+    padding: 0.8rem 1.5rem;
+    display: block;
+    text-decoration: none;
+    color: #354649; /* Dark color for dropdown links */
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Ensuring categories dropdown link text stays white during hover */
+  .categories-dropdown a:hover {
+    background-color: #6C7A89;
+    color: white !important; /* Force the text to stay white on hover */
+  }
+  
+  /* Cart Button */
+  .cart-button {
+    background-color: #6C7A89;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Ensuring cart button text stays white during hover */
+  .cart-button:hover {
+    background-color: #A3C6C4;
+    color: white !important; /* Force the text to stay white on hover */
+  }
+  
+  /* Sign In Button */
+  .sign-in-button {
+    background-color: #6C7A89;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Ensuring sign-in button text stays white during hover */
+  .sign-in-button:hover {
+    background-color: #A3C6C4;
+    color: white !important; /* Force the text to stay white on hover */
+    transform: scale(1.05);
+  }
+  
+  .sign-in-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(163, 198, 196, 0.5);
+  }
+  

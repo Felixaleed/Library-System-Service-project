@@ -1,0 +1,42 @@
+/* Styling for sections */
+.section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #E0E7E9;  /* Light off-white for section background */
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Title Styling */
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #354649;  /* Dark teal for titles */
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #6C7A89;  /* Cool grayish teal border */
+    padding-bottom: 0.5rem;
+}
+
+/* Grid layout for books */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Auto-fill columns with a minimum size of 250px */
+    gap: 1.5rem;  /* Adds space between items in both rows and columns */
+    justify-items: center;  /* Centers items horizontally within each grid cell */
+    padding: 1rem;
+}
+
+/* Styling for each bookcard */
+.bookcard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;  /* Ensure the bookcard takes full width of its grid cell */
+    transition: transform 0.3s ease-in-out;
+}
+
+.bookcard:hover {
+    transform: scale(1.05);  /* Slight zoom effect on hover */
+}
