@@ -10,11 +10,14 @@ const AdminPage = () => {
     navigate("/manage-books"); 
   };
 
+<<<<<<< HEAD
   //Function to navigate to UserProfile
   const goToUserProfile=()=>{
     navigate("/manage-users");
   }
 
+=======
+>>>>>>> 03b7166ebf27f343c71c9ebf6a12f689a8b1ef5b
   return (
     <div className="admin-page">
       <header className="admin-header">
@@ -33,7 +36,12 @@ const AdminPage = () => {
         <section className="manage-section">
           <h2>Users Section</h2>
           <p>Here you can view and manage registered users.</p>
+<<<<<<< HEAD
           <button className="action-button" onClick={goToUserProfile}>Manage Users</button>
+=======
+          <button className="action-button" onClick={goToCrudPage}>Add User</button>
+          <button className="action-button" onClick={goToCrudPage}>Manage Users</button>
+>>>>>>> 03b7166ebf27f343c71c9ebf6a12f689a8b1ef5b
         </section>
       </div>
     </div>
