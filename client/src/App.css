@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #E0E7E9;  /* Light off-white for overall background */
+  color: #354649;  /* Dark teal for text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust header and navigation */
+header {
+  background-color: #354649;  /* Dark teal for header */
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Navigation tabs */
+.navigation-tabs {
+  background-color: #6C7A89;  /* Cool grayish teal for tabs */
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.navigation-tabs a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navigation-tabs a:hover {
+  color: #A3C6C4;  /* Light teal hover effect */
+}
+
+/* Section */
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}

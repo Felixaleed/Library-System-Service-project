@@ -1,0 +1,63 @@
+/* Section container styling */
+.section {
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    background-color: #fff; /* Light background for the section */
+    border-radius: 10px; /* Rounded corners for the section */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Section title styling */
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #354649; /* Dark teal text color */
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Button styling */
+  .view-all-button {
+    background-color: #6C7A89; /* Cool grayish teal background */
+    color: #fff; /* White text */
+    padding: 0.8rem 2rem; /* Spacious padding */
+    font-size: 1rem;
+    font-weight: 600; /* Bold text */
+    border-radius: 30px; /* Rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .view-all-button:hover {
+    background-color: #A3C6C4; /* Light teal background on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .view-all-button:focus {
+    outline: none; /* Remove the outline */
+    box-shadow: 0 0 0 3px rgba(163, 198, 196, 0.5); /* Subtle focus outline in light teal */
+  }
+  
+  /* Styling the book list */
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Spacing between cards */
+    justify-content: center; /* Center-align cards */
+    align-items: flex-start; /* Align cards at the top */
+  }
+  
+  /* Mobile responsiveness for Section */
+  @media (max-width: 768px) {
+    .view-all-button {
+      padding: 0.6rem 1.5rem; /* Adjust padding for smaller screens */
+      font-size: 0.9rem; /* Adjust font size */
+    }
+  }
+  

@@ -1,0 +1,169 @@
+/* General Page Styling */
+.crud-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Form Styling */
+.crud-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.crud-form input {
+  flex: 1 1 45%; /* Allows two inputs per row on larger screens */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.crud-form button {
+  flex: 1 1 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.crud-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Search Section Styling */
+.search-section {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+  justify-content: center;
+}
+
+.search-section input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1 1 auto;
+  font-size: 14px;
+}
+
+.search-section button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-section button:hover {
+  background-color: #1e7e34;
+}
+
+/* List Styling */
+.crud-list {
+  margin-top: 20px;
+}
+
+.crud-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.crud-item p {
+  margin: 5px 0;
+}
+
+.crud-item div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons for Update and Delete */
+.crud-item .update-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.crud-item .update-btn:hover {
+  background-color: #e0a800;
+}
+
+.crud-item .delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.crud-item .delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* Search Results Section */
+.search-results {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.search-results h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.search-results .crud-item {
+  background-color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .crud-form input {
+    flex: 1 1 100%; /* Full width on smaller screens */
+  }
+
+  .crud-form button {
+    flex: 1 1 auto;
+  }
+
+  .crud-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .crud-item div {
+    justify-content: flex-start;
+  }
+}
