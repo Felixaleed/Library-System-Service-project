@@ -40,6 +40,7 @@
 .bookcard:hover {
     transform: scale(1.05);  /* Slight zoom effect on hover */
 }
+<<<<<<< HEAD
 .cart-summary {
     margin-top: 20px;
     padding: 20px;
@@ -97,3 +98,5 @@
     background-color: #ff0000;
   }
   
+=======
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec

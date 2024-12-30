@@ -23,6 +23,10 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/microservices": "^10.4.15",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
     "@nestjs/mongoose": "^10.1.0",
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/typeorm": "^10.0.2",
@@ -31,6 +35,16 @@
     "class-validator": "^0.14.1",
     "dotenv": "^16.4.7",
     "mongoose": "^8.9.2",
+<<<<<<< HEAD
+=======
+=======
+    "@nestjs/platform-express": "^10.0.0",
+    "@nestjs/typeorm": "^10.0.2",
+    "amqplib": "^0.10.5",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.4.7",
+>>>>>>> 03b7166ebf27f343c71c9ebf6a12f689a8b1ef5b
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
     "pg": "^8.13.1",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",

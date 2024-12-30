@@ -3,6 +3,7 @@
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
+<<<<<<< HEAD
   background-color: #f3f4f6;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
@@ -16,17 +17,29 @@
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
+=======
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 }
 
 /* Form Styling */
 .crud-form {
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   gap: 12px;
+=======
+  gap: 10px;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
   margin-bottom: 20px;
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .crud-form input,
 .crud-form textarea,
 .crud-form button {
@@ -48,24 +61,44 @@
 
 .crud-form input[type="file"] {
   flex: 1 1 100%;
+=======
+.crud-form input {
+  flex: 1 1 45%; /* Allows two inputs per row on larger screens */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 }
 
 .crud-form button {
   flex: 1 1 100%;
+<<<<<<< HEAD
+=======
+  padding: 10px;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
   margin-top: 10px;
   background-color: #007bff;
   color: white;
   border: none;
+<<<<<<< HEAD
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+=======
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 }
 
 .crud-form button:hover {
   background-color: #0056b3;
 }
 
+<<<<<<< HEAD
 /* List Styling */
 .crud-list {
   margin-top: 20px;
@@ -143,35 +176,142 @@
   gap: 10px;
   justify-content: center;
   margin: 20px 0;
+=======
+/* Search Section Styling */
+.search-section {
+  display: flex;
+  margin: 20px 0;
+  gap: 10px;
+  justify-content: center;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 }
 
 .search-section input {
   padding: 8px;
+<<<<<<< HEAD
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 4px;
+=======
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1 1 auto;
+  font-size: 14px;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 }
 
 .search-section button {
   padding: 8px 16px;
+<<<<<<< HEAD
   font-size: 14px;
+=======
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
   background-color: #28a745;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+<<<<<<< HEAD
+=======
+  font-size: 14px;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 }
 
 .search-section button:hover {
   background-color: #1e7e34;
 }
 
+<<<<<<< HEAD
 /* Responsive Design */
 @media (max-width: 768px) {
   .crud-form input,
   .crud-form textarea,
   .crud-form button {
     flex: 1 1 100%;
+=======
+/* List Styling */
+.crud-list {
+  margin-top: 20px;
+}
+
+.crud-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.crud-item p {
+  margin: 5px 0;
+}
+
+.crud-item div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons for Update and Delete */
+.crud-item .update-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.crud-item .update-btn:hover {
+  background-color: #e0a800;
+}
+
+.crud-item .delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.crud-item .delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* Search Results Section */
+.search-results {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.search-results h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.search-results .crud-item {
+  background-color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .crud-form input {
+    flex: 1 1 100%; /* Full width on smaller screens */
+  }
+
+  .crud-form button {
+    flex: 1 1 auto;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
   }
 
   .crud-item {
@@ -179,6 +319,7 @@
     align-items: flex-start;
   }
 
+<<<<<<< HEAD
   .crud-item img {
     margin-bottom: 10px;
   }
@@ -186,5 +327,9 @@
   .crud-item div {
     justify-content: flex-start;
     gap: 10px;
+=======
+  .crud-item div {
+    justify-content: flex-start;
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "../components/Header";
@@ -93,10 +94,35 @@ const HomePage = () => {
   if (loading) {
     return <div>Loading books...</div>;
   }
+=======
+import React from "react";
+import Header from "../components/Header";
+import NavigationTabs from "../components/NavigationTabs"; // Import NavigationTabs if needed
+import Section from "../components/Section";
+import "./HomePage.css";
+
+// Import images
+import thornAndRoses from "../assets/abstract-elegant-winter-book-cover_23-2148798745.avif";
+import mistAndFury from "../assets/atomic-love-wattpad-book-cover_23-2149231553.avif";
+import frostAndStarlight from "../assets/images.jpg";
+import wingsAndRuins from "../assets/book_cover_34.webp";
+
+const HomePage = () => {
+  const popularBooks = [
+    { id: 1, title: "Thorn and Roses", image: thornAndRoses, author: "Sarah J. Maas" },
+    { id: 2, title: "Mist and Fury", image: mistAndFury, author: "Sarah J. Maas" },
+  ];
+
+  const ebooks = [
+    { id: 3, title: "Frost and Starlight", image: frostAndStarlight, author: "Sarah J. Maas" },
+    { id: 4, title: "Wings and Ruin", image: wingsAndRuins, author: "Sarah J. Maas" },
+  ];
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
 
   return (
     <div className="homepage-container">
       <Header />
+<<<<<<< HEAD
       <NavigationTabs />
       <div className="sections">
         <h2>All Books</h2>
@@ -126,6 +152,13 @@ const HomePage = () => {
       </div>
      
       
+=======
+      <NavigationTabs /> {/* Render NavigationTabs here */}
+      <div className="sections">
+        <Section title="Popular" books={popularBooks} />
+        <Section title="eBooks" books={ebooks} />
+      </div>
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
     </div>
   );
 };

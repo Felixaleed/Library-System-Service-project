@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import "./Section.css";
 import winterBookCover from "../assets/abstract-elegant-winter-book-cover_23-2148798745.avif"; // Import the default image
 
@@ -22,6 +23,26 @@ const Section = ({ title, books, onAddToCart }) => {
             <p>Price: ${book.price}</p>
             <button onClick={() => onAddToCart(book)}>Add to Cart</button>
           </div>
+=======
+import BookCard from "./BookCard";
+import "./Section.css";
+
+const Section = ({ title, books }) => {
+  return (
+    <div className="section">
+      <div className="section-header">
+        <h2 className="section-title">{title}</h2>
+        <button className="view-all-button">View All</button>
+      </div>
+      <div className="book-list">
+        {books.map((book) => (
+          <BookCard
+            key={book.id}
+            title={book.title}
+            image={book.image}
+            author={book.author}
+          />
+>>>>>>> e48e89e35f9eb2636b1bcbe04f5b733ffa2df0ec
         ))}
       </div>
     </div>
